@@ -1,5 +1,5 @@
 {
-    "name": "Telegram-reaction-bot",
+    "name": "flora-bar-c299",
     "description": "A Telegram Bot that automatically reacts to posts in Telegram Channels, groups, and private messages, developed as a serverless application.",
     "repository": "https://github.com/USDTQBOT/Telegram-reaction-bot",
     "env": {
