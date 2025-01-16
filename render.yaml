@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: Telegram-reaction-bot 
+    name: flora-bar-c299 
     runtime: node
     plan: starter
     repo: https://github.com/USDTQBOT/Telegram-reaction-bot
