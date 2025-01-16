@@ -8,3 +8,10 @@ BOT_USERNAME = "Ajereactionbot"
 EMOJI_LIST = "👍❤🔥🥰👏😁🎉🤩🙏👌🕊😍🐳❤‍🔥💯⚡🏆"
 RANDOM_LEVEL = "2"
 RESTRICTED_CHATS = "1234,5678"
+# wrangler.toml (wrangler v3.88.0^)
+[observability.logs]
+enabled = true
+
+
+
+
