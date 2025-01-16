@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: auto-reaction-bot
+    name: Telegram-reaction-bot 
     runtime: node
     plan: starter
     repo: https://github.com/USDTQBOT/Telegram-reaction-bot
