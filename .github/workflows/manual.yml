@@ -1,0 +1,32 @@
+# This is a basic workflow that is manually triggered
+
+name: Deploy to Cloudflare Workers
+
+# Controls when the action will run. Workflow runs when manually triggered using the UI
+# or API.
+on:
+  workflow_dispatch:
+    # Inputs the workflow accepts.
+    jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: Deploy
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          secrets: |
+            BOT_TOKEN
+            BOT_USERNAME
+            EMOJI_LIST
+            RANDOM_LEVEL
+            RESTRICTED_CHATS
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          BOT_USERNAME: ${{ secrets.BOT_USERNAME }}
+          EMOJI_LIST: ${{ secrets.EMOJI_LIST }}
+          RANDOM_LEVEL: ${{ secrets.RANDOM_LEVEL }}
+          RESTRICTED_CHATS: ${{ secrets.RESTRICTED_CHATS }}
