@@ -16,7 +16,7 @@ export const htmlContent = `
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Telegram Auto Reaction Bot</title>
+<title>Telegram-reaction-bot</title>
 <meta name="description" content="Single Developers presents an open-source Telegram Auto Reaction bot developed by Malith-Rukshan. Reacts to all messages received from chats automatically. Serverless deployment on Cloudflare.">
 <meta name="keywords" content="Telegram bot, auto reaction bot, open-source, Single Developers, Malith-Rukshan, Telegram auto reaction, serverless telegram bot, reaction automation">
 <script async defer src="https://buttons.github.io/buttons.js"></script>
@@ -48,7 +48,7 @@ export const htmlContent = `
   <a class="github-button" href="https://github.com/USDTQBOT/Telegram-reaction-bot/fork" data-size="large" data-show-count="true">Fork</a>
 </div>
 <div>
-  <a class="github-button" href="https://github.com/USDTQBOT/" data-size="large">Follow @Malith-Rukshan</a>
+  <a class="github-button" href="https://github.com/USDTQBOT/Telegram-reaction-bot" data-size="large">Follow @usdtqbot</a>
 </div>
 </body>
 </html>
