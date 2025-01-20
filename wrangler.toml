@@ -7,7 +7,7 @@ compatibility_date = "2024-11-11"
 BOT_TOKEN = "7228651385:AAHvVY9oZAzqoZp2aeProh1i16riopePySM"
 BOT_USERNAME = "Ajereactionbot"
 EMOJI_LIST = "👍❤🔥🥰👏😁🎉🤩🙏👌🕊😍🐳❤‍🔥💯⚡🏆"
-RANDOM_LEVEL = "2"
+RANDOM_LEVEL = "0"
 RESTRICTED_CHATS = "1234,5678"
 
 
