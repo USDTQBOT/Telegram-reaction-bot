@@ -1,6 +1,6 @@
 name = "flora-bar-c299"
 main = "api/index.js"
-compatibility_date = "2024-02-08"
+compatibility_date = "2024-11-11"
 
 
 [vars]
