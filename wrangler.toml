@@ -1,10 +1,6 @@
 name = "flora-bar-c299"
 main = "api/index.js"
 compatibility_date = "2024-11-11"
-[build]
-command = "npm run build"
-cwd = "build_cwd"
-watch_dir = "build_watch_dir"
 
 [vars]
 BOT_TOKEN = "7228651385:AAHvVY9oZAzqoZp2aeProh1i16riopePySM"
@@ -13,4 +9,8 @@ EMOJI_LIST = "👍❤🔥🥰👏😁🎉🤩🙏👌🕊😍🐳❤‍🔥💯�
 RANDOM_LEVEL = "0"
 RESTRICTED_CHATS = "1234,5678"
 
+[build]
+command = "npm run build"
+cwd = "build_cwd"
+watch_dir = "build_watch_dir"
 
